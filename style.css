@@ -7,7 +7,7 @@
     font-size: 14px;
 }
 
-body {
+/*body {
     width: 100%;
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
@@ -15,25 +15,25 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-}
+}*/
 
 .instagram-wrapper {
     display: flex;
     align-items: center;
-    justify-content: start;
-    width: 60%;
-    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 25%;
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 50%;
 }
 
 .instagram-continue {
@@ -41,7 +41,8 @@ body {
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
+    width: 20%;
+    height: 60%;
     min-height: 34rem;
 }
 
@@ -116,7 +117,7 @@ body {
 .app-download {
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: cover;    
 }
 
 .app-download:nth-child(1) {
@@ -125,6 +126,38 @@ body {
 
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+}
+
+
+footer .sobre{
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 10px;    
+}
+
+footer .sobre a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+footer .footer{
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 /* media queries */
